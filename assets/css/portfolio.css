@@ -46,3 +46,9 @@ body{
     background-image: url("../images/triangular_@2X.png");
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 }
+@media only screen and (max-width: 640px) {
+    section{
+        justify-content: center;
+        padding-left: 1px;
+    }
+}

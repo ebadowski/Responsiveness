@@ -42,3 +42,40 @@ nav a{
     color: #00ccff;
     /* text-shadow: 1px 1px 1px  lightgrey; */
 }
+@media only screen and (max-width: 980px) {
+    header h1{
+        margin-left: 10px;
+    }
+    header div{
+        width: auto;
+    }
+    nav{
+        padding-right: 10px;
+    }
+}
+@media only screen and (max-width: 768px) {
+    header h1{
+        margin-left: 10px;
+    }
+    header div{
+        width: auto;
+    }
+    nav{
+        padding-right: 10px;
+    }
+}
+@media only screen and (max-width: 640px) {
+    header h1 {
+      width: 100%;
+      text-align: center;  
+      margin: 0; 
+    }
+    header div{
+        width: auto;
+    }
+    nav{
+        width: 100%;
+        margin-bottom: 10px;
+        text-align: center;  
+    }
+}
